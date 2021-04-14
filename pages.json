@@ -12,10 +12,54 @@
 	// },
 	"pages": [
 		{
-            "path" : "pages/home/index",
+            "path" : "pages/userLogin",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "HOME",
+                "navigationBarTitleText": "小斧子房屋维修",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userRegist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "小斧子房屋维修",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/workerLogin",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "小斧子房屋维修",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/workerRegist",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "小斧子房屋维修",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/userMsg",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "小斧子房屋维修",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/userMsg-re",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "小斧子房屋维修",
                 "enablePullDownRefresh": false
             }
             
@@ -25,6 +69,7 @@
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uView",
 		"navigationBarBackgroundColor": "#FFFFFF",
-		"backgroundColor": "#FFFFFF"
+		"backgroundColor": "#FFFFFF",
+		"navigationStyle":"custom"
 	}
 }

@@ -1,0 +1,40 @@
+.view{
+	width: 100%;
+	height: 100%;
+}
+.img{
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	position: fixed;
+}
+.headerImg{
+	width: 100%;
+	z-index: -1;
+	position: fixed;
+}
+.loginMsg .registMsg{
+	display: flex;
+	justify-content: center;
+	
+}
+button::after{
+	border: none;
+}
+.bottomImg{
+	height: 3.5rem;
+	width: 16rem;
+	margin-left: -0.5rem;
+}
+.slot-right{
+	padding: 0 1rem;
+}
+.link{
+	margin-top: 2.5rem;
+	float: right;
+	margin-right: 1.5rem;
+	color: #82848A;
+}
+.link p{
+	text-decoration: underline;
+}

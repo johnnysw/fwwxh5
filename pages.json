@@ -64,6 +64,26 @@
             }
             
         }
+        ,{
+            "path" : "pages/mywallet/mywallet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的钱包",
+				"navigationStyle":"custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mywallet/withdraw",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "提现",
+				"navigationStyle":"custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

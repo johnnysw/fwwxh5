@@ -220,6 +220,7 @@
 		margin-right: 2rem;
 		font-size: 1rem;
 		margin-bottom: 3rem;
+		border: none !important;
 	}
 	.fixed{
 		word-spacing:2.05rem;

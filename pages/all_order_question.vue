@@ -13,8 +13,7 @@
 				<swiper :current="current" class="tap-label">
 				<swiper-item v-for="(item,index) in list" :key="index">
 					<view class=""  v-for="index of 3" :class="[index==1?'first':'']" :key="index">
-						<!-- 从第二个元素开始遍历-->
-						
+						<!-- 开始遍历-->
 				     <view class="margin">
 						
 					</view>
@@ -221,6 +220,7 @@
 		margin-right: 2rem;
 		font-size: 1rem;
 		margin-bottom: 3rem;
+		border: none !important;
 	}
 	.fixed{
 		word-spacing:2.05rem;

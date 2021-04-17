@@ -55,7 +55,34 @@
                 "enablePullDownRefresh": false
             }
             
-        },{
+        },
+		{
+		    "path" : "pages/order_details_BookOrderSubmit",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "小斧子房屋维修",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/order_details_CompleteRepair",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "小斧子房屋维修",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},  
+		{
+		    "path" : "pages/order_details_evaluate",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "小斧子房屋维修",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
             "path" : "pages/userMsg-re",
             "style" :                                                                                    
             {
